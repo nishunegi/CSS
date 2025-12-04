@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            width: 1200px;
+            height: 900px;
+            background-color: powderblue;
+        }
+        header, footer{
+            height: 100px;
+            background-color:aliceblue;
+        }
+        nav{
+            height: 80px;
+            background-color: pink;
+        }
+        section{
+            height: 300px;
+            background-color: bisque;
+            display: flex;
+        }
+        #left{
+            flex-grow: 1;
+            height: 300px;
+        }
+        #right{
+            flex-grow: 2;
+            height: 300px;
+            
+        }
+    </style>
+</head>
+<body>
+    <main><!--main start-->
+        <header><h2>header</h2></header>
+        <nav><h2>nav</h2></nav>
+
+        <section><!--section start-->
+            <div id="left"></div>
+            <div id="right">
+                <aside><h2>aside</h2></aside>
+                <article><h2>section</h2></article>
+            </div>
+        </section><!--section end-->
+    </main><!--main end-->
+    
+</body>
+</html>
