@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,*{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: 0px;
+        }
+        main{
+            height: 1200px;
+            width: 900px;
+            background-color: grey;
+            margin: 0 auto;
+            display: grid;
+            grid-template-rows: 200px 200px 500px 200px;
+            gap: 20px;
+        }
+        .box{
+            background-color:aliceblue;
+            margin: 10px 10px 10px 10px;
+            text-align: center;
+            align-content: center;
+        }
+        .ct{
+            display: grid;
+            grid-template-columns: 285px 285px 285px;
+            gap: 10px;
+            margin: 10px 10px 10px 10px;
+        }
+        .ctleft,
+        .ctright,
+        .mct{
+            margin: 10px 10px 10px 10px;
+            text-align: center;
+            align-content: center;
+            background-color: aliceblue;
+        }
+       
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box">Header</div>
+        <div class="box">Navigation Menu</div>
+        <div class="ct">
+            <div class="ctleft">Content</div>
+            <div class="mct">Main Content</div>
+            <div class="ctright">Content</div>
+        </div>
+        <div class="box">Footer</div>
+    </main>
+</body>
+</html>
